@@ -26,7 +26,7 @@ public class GroupSix extends JPanel {
         setBackground(Color.blue);
         TextOne = new JTextField();
         TextTwo = new JTextField();
-        TableSix = new JTable(2,2);
+        TableSix = new JTable(0,0);
         JLabel label = new JLabel("Group Six");
         JButton sixButton1 = new JButton("make or add words");
         sixButton1.addActionListener(new buttonOne());
