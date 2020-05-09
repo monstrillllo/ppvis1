@@ -5,17 +5,17 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GroupThree extends JPanel {
+public class TextRadioCheck extends JPanel {
     private JTextField Field;
     private JRadioButton RadOne;
     private JRadioButton RadTwo;
     private JRadioButton RadThree;
 
-    public GroupThree() {
+    public TextRadioCheck() {
         super(new GridLayout(0, 6));
         setBackground(Color.MAGENTA);
         Field = new JTextField(12);
-        JLabel label = new JLabel("Group Three");
+        JLabel label = new JLabel("Text radio check");
         JButton threeButton = new JButton("Check");
         RadOne = new JRadioButton("yes");
         RadOne.setBackground(Color.MAGENTA);

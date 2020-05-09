@@ -5,17 +5,17 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GroupFour extends JPanel {
+public class TextCheckCheck extends JPanel {
     private JTextField Field;
     private JCheckBox CheckOne;
     private JCheckBox CheckTwo;
     private JCheckBox CheckThr;
 
-    public GroupFour() {
+    public TextCheckCheck() {
         super(new GridLayout(0, 6));
         setBackground(Color.ORANGE);
         Field = new JTextField(12);
-        JLabel label = new JLabel("Group Four");
+        JLabel label = new JLabel("Text Check Check");
         JButton fourButton = new JButton("press");
         fourButton.addActionListener(new groupFourL());
         CheckOne = new JCheckBox("one");

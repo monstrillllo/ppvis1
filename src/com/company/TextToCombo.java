@@ -5,14 +5,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GroupOne extends JPanel {
+public class TextToCombo extends JPanel {
     private JComboBox box;
     private JTextField Field;
 
-    public GroupOne() {
+    public TextToCombo() {
         super(new GridLayout(0, 4));
         setBackground(Color.GREEN);
-        JLabel label = new JLabel("Group One");
+        JLabel label = new JLabel("Text to combo");
         Field = new JTextField(12);
         JButton button = new JButton("Add to Box");
         box = new JComboBox();

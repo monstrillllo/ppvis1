@@ -8,12 +8,12 @@ public class Main extends JFrame {
         super("myLab");
         JPanel container = new JPanel();
         container.setLayout(new BoxLayout(container, BoxLayout.Y_AXIS));
-        container.add(new GroupOne());
-        container.add(new GroupTwo());
-        container.add(new GroupThree());
-        container.add(new GroupFour());
-        container.add(new GroupFive());
-        container.add(new GroupSix());
+        container.add(new TextToCombo());
+        container.add(new TextToButtonAndSwap());
+        container.add(new TextRadioCheck());
+        container.add(new TextCheckCheck());
+        container.add(new TextToTableAndSwap());
+        container.add(new MakeTableAndStopStartMoving());
         add(container);
         pack();
         setVisible(true);

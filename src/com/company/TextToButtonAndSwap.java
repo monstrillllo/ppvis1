@@ -5,15 +5,15 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GroupTwo extends JPanel {
+public class TextToButtonAndSwap extends JPanel {
     private JTextField Field;
     private JButton ButtonOne;
     private JButton ButttonTwo;
 
-    public GroupTwo() {
+    public TextToButtonAndSwap() {
         super(new GridLayout(0, 4));
         setBackground(Color.red);
-        JLabel label = new JLabel("Group Two");
+        JLabel label = new JLabel("Text to button and swap");
         Field = new JTextField(12);
         ButtonOne = new JButton("get Text");
         ButtonOne.addActionListener(new groupTwoButL());

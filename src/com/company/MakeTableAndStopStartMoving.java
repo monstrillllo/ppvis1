@@ -10,24 +10,23 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class GroupSix extends JPanel {
+public class MakeTableAndStopStartMoving extends JPanel {
     int ex = 0;
     int x1 = 1;
     int x2 = 1;
     int y1 = 1;
     int y2 = 1;
-    int run = 1;
     JTextField TextOne;
     JTextField TextTwo;
     JTable TableSix;
-    public GroupSix() {
+    public MakeTableAndStopStartMoving() {
 
         super(new GridLayout(0, 7));
         setBackground(Color.blue);
         TextOne = new JTextField();
         TextTwo = new JTextField();
         TableSix = new JTable(0,0);
-        JLabel label = new JLabel("Group Six");
+        JLabel label = new JLabel("Make table and stop/start moving words");
         JButton sixButton1 = new JButton("make or add words");
         sixButton1.addActionListener(new buttonOne());
         JButton sixButton2 = new JButton("start");
